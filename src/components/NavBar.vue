@@ -1,7 +1,6 @@
 <template>
   <el-menu
     :default-active="$route.path"
-    :router="true"
     class="el-menu-demo"
     mode="horizontal"
     background-color="#545c64"
@@ -9,10 +8,10 @@
     active-text-color="#ffd04b"
   >
     <el-menu-item class="tab" index="/">
-      Count App (with data)
+      <router-link to="/">Count App (with data)</router-link>
     </el-menu-item>
     <el-menu-item class="tab" index="/container">
-      Count App (with props)
+      <router-link to="/container">Count App (with props)</router-link>
     </el-menu-item>
   </el-menu>
 </template>
