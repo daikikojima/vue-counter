@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vue-counter/precache-manifest.edc7a06c558a8fdbba0dee1407a03240.js"
+  "/vue-counter/precache-manifest.48e8445e7d9aff45329ee1d45cc6e938.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "count_app"});
